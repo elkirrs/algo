@@ -21,5 +21,5 @@ func main() {
 	//algo.Cache()
 	//algo.LinkedList()
 
-	binarySearch.TusksRun()
+	binarySearch.TasksRun()
 }
