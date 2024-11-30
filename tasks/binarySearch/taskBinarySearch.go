@@ -5,28 +5,34 @@ import "fmt"
 func TasksRun() {
 	//firstBadVersion
 	fbvTarget := 5
-	fbv := firstBadVersion(fbvTarget)
-	fmt.Printf("firstBadVersion: target: %d result: %d\n", fbvTarget, fbv)
+	firstBadVersionResult := firstBadVersion(fbvTarget)
+	fmt.Printf("firstBadVersion: target: %d result: %d\n", fbvTarget, firstBadVersionResult)
 
 	//isPerfectSquare
 	vpsTarget := 25
-	vps := isPerfectSquare(vpsTarget)
-	fmt.Printf("isPerfectSquare: target: %d is: %t\n", vpsTarget, vps)
+	isPerfectSquareResult := isPerfectSquare(vpsTarget)
+	fmt.Printf("isPerfectSquare: target: %d is: %t\n", vpsTarget, isPerfectSquareResult)
 
 	//searchInsertPosition
 	sipNums := []int{1, 3, 5, 6}
 	sipTarget := 5
-	sip := searchInsertPosition(sipNums, sipTarget)
-	fmt.Printf("searchInsertPosition: %v target: %d position: %d\n", sipNums, sipTarget, sip)
+	searchInsertPositionResult := searchInsertPosition(sipNums, sipTarget)
+	fmt.Printf("searchInsertPosition: %v target: %d position: %d\n", sipNums, sipTarget, searchInsertPositionResult)
 
 	//mySqrt
 	msTarget := 8
-	ms := mySqrt(msTarget)
-	fmt.Printf("mySqrt: target: %d result: %d\n", msTarget, ms)
+	mySqrtResult := mySqrt(msTarget)
+	fmt.Printf("mySqrt: target: %d result: %d\n", msTarget, mySqrtResult)
 
 	//searchInRotatedSortedArray
-	rsaTarget := 6
+	rsaTarget := 0
 	rsaNums := []int{4, 5, 6, 7, 0, 1, 2}
-	rsa := searchInRotatedSortedArray(rsaNums, rsaTarget)
-	fmt.Printf("searchInRotatedSortedArray: %v target: %d position: %d\n", rsaNums, rsaTarget, rsa)
+	searchInRotatedSortedArrayResult := searchInRotatedSortedArray(rsaNums, rsaTarget)
+	fmt.Printf("searchInRotatedSortedArray: %v target: %d position: %d\n", rsaNums, rsaTarget, searchInRotatedSortedArrayResult)
+
+	//peakIndexInMountainArray
+	pimaNums := []int{4, 5, 6, 7, 3, 2, 1, 0}
+	peakIndexInMountainArrayResult := peakIndexInMountainArray(pimaNums)
+	fmt.Printf("peakIndexInMountainArray: %v position: %d\n", pimaNums, peakIndexInMountainArrayResult)
+
 }
