@@ -1,6 +1,6 @@
 package binarySearch
 
-import fmt "fmt"
+import "fmt"
 
 func TasksRun() {
 	//firstBadVersion
@@ -23,4 +23,10 @@ func TasksRun() {
 	msTarget := 8
 	ms := mySqrt(msTarget)
 	fmt.Printf("mySqrt: target: %d result: %d\n", msTarget, ms)
+
+	//searchInRotatedSortedArray
+	rsaTarget := 6
+	rsaNums := []int{4, 5, 6, 7, 0, 1, 2}
+	rsa := searchInRotatedSortedArray(rsaNums, rsaTarget)
+	fmt.Printf("searchInRotatedSortedArray: %v target: %d position: %d\n", rsaNums, rsaTarget, rsa)
 }
