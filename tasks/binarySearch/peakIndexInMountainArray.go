@@ -1,6 +1,6 @@
 package binarySearch
 
-func peakIndexInMountainArray(arr []int) int {
+func PeakIndexInMountainArray(arr []int) int {
 	left, right := 0, len(arr)-1
 
 	for left <= right {

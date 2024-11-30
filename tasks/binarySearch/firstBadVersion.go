@@ -1,6 +1,6 @@
 package binarySearch
 
-func firstBadVersion(n int) int {
+func FirstBadVersion(n int) int {
 	left, right := 1, n
 
 	for left < right {

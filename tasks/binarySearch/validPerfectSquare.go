@@ -1,6 +1,6 @@
 package binarySearch
 
-func isPerfectSquare(num int) bool {
+func IsPerfectSquare(num int) bool {
 	left, right := 1, num
 
 	for left <= right {

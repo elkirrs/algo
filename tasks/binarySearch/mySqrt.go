@@ -1,6 +1,6 @@
 package binarySearch
 
-func mySqrt(x int) int {
+func MySqrt(x int) int {
 	left, right := 0, x
 
 	for left <= right {

@@ -1,6 +1,6 @@
 package binarySearch
 
-func searchInRotatedSortedArray(nums []int, target int) int {
+func SearchInRotatedSortedArray(nums []int, target int) int {
 	left, right := 0, len(nums)-1
 
 	for left <= right {

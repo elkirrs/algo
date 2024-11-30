@@ -1,6 +1,6 @@
 package binarySearch
 
-func searchInsertPosition(nums []int, target int) int {
+func SearchInsertPosition(nums []int, target int) int {
 	left, right := 0, len(nums)-1
 	for left <= right {
 		mid := left + (right-left)/2
