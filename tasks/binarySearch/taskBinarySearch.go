@@ -8,6 +8,7 @@ func TasksRun() {
 	var result int
 	var resultBool bool
 	var resultArr []int
+	var matrix [][]int
 
 	//firstBadVersion
 	target = 5
@@ -46,5 +47,12 @@ func TasksRun() {
 	target = 8
 	resultArr = SearchRange(nums, target)
 	fmt.Printf("findFirstLastPositionElement: %v target: %d position: %v\n", nums, target, resultArr)
+
+	//searchMatrix
+	matrix = GenerateMatrix(10)
+	target = 38
+	resultBool = SearchMatrix(matrix, target)
+	PrintMatrix(matrix)
+	fmt.Printf("searchMatrix: target: %d position: %t\n", target, resultBool)
 
 }
