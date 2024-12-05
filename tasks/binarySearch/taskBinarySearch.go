@@ -55,6 +55,7 @@ func TasksRun() {
 	PrintMatrix(matrix)
 	fmt.Printf("searchMatrix: target: %d position: %t\n", target, resultBool)
 
+	//searchMatrix2
 	matrix = [][]int{
 		{1, 4, 7, 11, 15},
 		{2, 5, 8, 12, 19},
@@ -63,7 +64,7 @@ func TasksRun() {
 		{18, 21, 23, 26, 30},
 	}
 	target = 14
-	resultBool = SearchMatrix2(matrix, target)
+	resultBool = SearchMatrixTwo(matrix, target)
 	PrintMatrix(matrix)
 	fmt.Printf("searchMatrix2: target: %d position: %t\n", target, resultBool)
 

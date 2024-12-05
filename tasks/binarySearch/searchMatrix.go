@@ -46,7 +46,7 @@ func SearchMatrix(matrix [][]int, target int) bool {
 	return false
 }
 
-func SearchMatrix2(matrix [][]int, target int) bool {
+func SearchMatrixTwo(matrix [][]int, target int) bool {
 
 	if len(matrix) == 0 || len(matrix[0]) == 0 {
 		return false
