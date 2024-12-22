@@ -1,6 +1,9 @@
 package main
 
-import "algo/tasks/binarySearch"
+import (
+	"algo/tasks/binarySearch"
+	"algo/tasks/twoPointers"
+)
 
 func main() {
 
@@ -22,4 +25,5 @@ func main() {
 	//algo.LinkedList()
 
 	binarySearch.TasksRun()
+	twoPointers.TasksRun()
 }

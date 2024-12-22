@@ -4,11 +4,6 @@ package twoPointers
 //list2 = [1,3,4]
 //Output[1,1,2,3,4,4]
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	tmp := &ListNode{}
 	current := tmp
