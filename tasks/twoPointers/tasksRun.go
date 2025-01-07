@@ -14,4 +14,5 @@ func TasksRun() {
 	//twoSum()						//167. Two Sum II - Input Array Is Sorted
 	//threeSum()					//15. 3Sum
 	//threeSumClosest() 			//16. 3Sum Closest
+	//findDuplicate()				//287. Find the Duplicate Number
 }
