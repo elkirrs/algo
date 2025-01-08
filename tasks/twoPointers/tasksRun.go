@@ -15,4 +15,5 @@ func TasksRun() {
 	//threeSum()					//15. 3Sum
 	//threeSumClosest() 			//16. 3Sum Closest
 	//findDuplicate()				//287. Find the Duplicate Number
+	//distinctAverages()			//2465. Number of Distinct Averages
 }
