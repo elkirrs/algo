@@ -17,11 +17,28 @@ func ProductofArrayExceptSelfRun() {
 	fmt.Println("Input: ", p)
 	result = productExceptSelf(p)
 	fmt.Println("Output: ", result)
+
+	p = []int{2, 3, 5, 0}
+	fmt.Println("Input: ", p)
+	result = productExceptSelf(p)
+	fmt.Println("Output: ", result)
 }
 
 func productExceptSelf(nums []int) []int {
-	var result = make([]int, len(nums))
+    n := len(nums)
+	out := make([]int, n)
 
+	prefix := 1
+	for i := 0; i < n; i++ {
+		out[i] = prefix
+		prefix *= nums[i]
+	}
 
-	return result
+	suffix := 1
+	for i := n - 1; i >= 0; i-- {
+		out[i] *= suffix
+		suffix *= nums[i]
+	}
+
+	return out
 }
