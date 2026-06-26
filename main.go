@@ -16,6 +16,7 @@ func main() {
 	// tasks.SearchInRotatedSortedArrayRun() // 33. Search in Rotated Sorted Array
 	// tasks.FindFirstAndLastPositionOfElementInSortedArrayRun() // 34. Find First and Last Position of Element in Sorted Array
 	// tasks.SearchInsertPositionRun() // 35. Search Insert Position
+	// tasks.ValidSudokuRun() // 36. Valid Sudoku
 	// tasks.GroupAnagramsRun() // 49. Group Anagrams
 	// tasks.SQRTxRun() // 69. Sqrt(x)
 	// tasks.SearchA2DMatrixRun() // 74. Search a 2D Matrix
