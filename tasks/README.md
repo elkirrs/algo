@@ -15,6 +15,7 @@
 - [74. Search a 2D Matrix](74.SearchA2DMatrix.go)
 - [81. Search in Rotated Sorted Array II](81.SearchInRotatedSortedArrayII.go)
 - [88. Merge Sorted Array](88.MergeSortedArray.go)
+- [128. Longest Consecutive Sequence](128.LongestConsecutiveSequence.go)
 - [153. Find Minimum in Rotated Sorted Array](153.FindMinimumInRotatedSortedArray.go)
 - [154. Find Minimum in Rotated Sorted Array II](154.FindMinimumInRotatedSortedArrayII.go)
 - [162. Find Peak Element](162.FindPeakElement.go)
