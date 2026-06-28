@@ -10,10 +10,8 @@ func ThreeSumRun() {
 	fmt.Println("https://leetcode.com/problems/3sum/")
 	fmt.Println("")
 
-	nums := []int{-1, 0, 1, 2, -1, -4, -2, -3, 3, 0, 4}
-	fmt.Println("Input: ", nums)
-	result := threeSum(nums)
-	fmt.Println("Output: ", result)
+	// threeSumPrint([]int{-1, 0, 1, 2, -1, -4, -2, -3, 3, 0, 4})
+    threeSumPrint([]int{0, 0, 0, 0})
 }	
 
 
@@ -45,4 +43,11 @@ func threeSum(nums []int) [][]int {
     }
 
 	return result
+}
+
+func threeSumPrint(in []int) {
+	fmt.Println("Input:", in)
+	output := threeSum(in)
+	fmt.Println("Output:", output)
+	fmt.Println("")
 }

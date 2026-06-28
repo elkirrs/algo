@@ -22,7 +22,7 @@ func main() {
 	// tasks.SearchA2DMatrixRun() // 74. Search a 2D Matrix
 	// tasks.SearchInRotatedSortedArrayIIRun() // 81. Search in Rotated Sorted Array II
 	// tasks.MergeSortedArrayRun() // 88. Merge Sorted Array
-	tasks.ValidPalindromeRun() // 125. Valid Palindrome
+	// tasks.ValidPalindromeRun() // 125. Valid Palindrome
 	// tasks.LongestConsecutiveSequenceRun() // 128. Longest Consecutive Sequence
 	// tasks.FindMinimumInRotatedSortedArrayRun() // 153. Find Minimum in Rotated Sorted Array
 	// tasks.FindMinimumInRotatedSortedArrayIIRun() // 154. Find Minimum in Rotated Sorted Array II
