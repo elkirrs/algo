@@ -11,6 +11,7 @@
 - [34. Find First and Last Position of Element in Sorted Array](34.FindFirstAndLastPositionOfElementInSortedArray.go)
 - [35. Search Insert Position](35.SearchInsertPosition.go)
 - [36. Valid Sudoku](36.ValidSudoku.go)
+- [42. Trapping Rain Water](42.TrappingRainWater.go)
 - [49. Group Anagrams](49.GroupAnagrams.go)
 - [69. Sqrt(x)](<69.Sqrt(x).go>)
 - [74. Search a 2D Matrix](74.SearchA2DMatrix.go)
