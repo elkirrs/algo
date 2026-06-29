@@ -42,7 +42,7 @@ func main() {
 	// tasks.IntersectionOfTwoArraysRun()                        // 349. Intersection of Two Arrays
 	// tasks.IntersectionOfTwoArraysIIRun()                      // 350. Intersection of Two Arrays II
 	// tasks.ValidPerfectSquareRun()                             // 367. Valid Perfect Square
-	tasks.BinarySearchRun() 									 // 704. Binary Search
+	// tasks.BinarySearchRun() 									 // 704. Binary Search
 	// tasks.PeakIndexInAMountainArrayRun()                      // 852. Peak Index in a Mountain Array
 	// tasks.SquaresOfASortedArrayRun()                          // 977. Squares of a Sorted Array
 	// tasks.RunningSumOf1dArrayRun()                            // 1480. Running Sum of 1d Array
@@ -57,7 +57,6 @@ func main() {
 	// algo.BubbleSort()
 	// algo.QuickSort()
 
-	// algo.BinarySearch()
 	// algo.RecursiveBinarySearch()
 
 	// algo.Factorial(7)
