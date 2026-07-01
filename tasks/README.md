@@ -37,6 +37,7 @@
 - [367. Valid Perfect Square](367.ValidPerfectSquare.go)
 - [704. Binary Search](704.BinarySearch.go)
 - [852. Peak Index in a Mountain Array](852.PeakIndexInAMountainArray.go)
+- [875. Koko Eating Bananas](875.KokoEatingBananas.go)
 - [977. Squares of a Sorted Array](977.SquaresOfASortedArray.go)
 - [1480. Running Sum of 1d Array](1480.RunningSumOf1dArray.go)
 - [1901. Find a Peak Element II](1901.FindAPeakElementII.go)

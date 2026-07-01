@@ -44,6 +44,7 @@ func main() {
 	// tasks.ValidPerfectSquareRun()                             // 367. Valid Perfect Square
 	// tasks.BinarySearchRun() 									 // 704. Binary Search
 	// tasks.PeakIndexInAMountainArrayRun()                      // 852. Peak Index in a Mountain Array
+	// tasks.KokoEatingBananasRun()								 // 875. Koko Eating Bananas
 	// tasks.SquaresOfASortedArrayRun()                          // 977. Squares of a Sorted Array
 	// tasks.RunningSumOf1dArrayRun()                            // 1480. Running Sum of 1d Array
 	// tasks.FindPeakElementIIRun()                              // 1901. Find a Peak Element II
