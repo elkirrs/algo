@@ -1,6 +1,7 @@
 ## Tasks:
 
 - [1. Two Sum](1.TwoSum.go)
+- [4. Median of Two Sorted Arrays](4.MedianOfTwoSortedArrays.go)
 - [11. Container With Most Water](11.ContainerWithMostWater.go)
 - [15. 3Sum](15.3Sum.go)
 - [16. 3Sum Closest](16.3SumClosest.go)
@@ -39,6 +40,7 @@
 - [852. Peak Index in a Mountain Array](852.PeakIndexInAMountainArray.go)
 - [875. Koko Eating Bananas](875.KokoEatingBananas.go)
 - [977. Squares of a Sorted Array](977.SquaresOfASortedArray.go)
+- [981. Time Based Key-Value Store](981.TimeBasedKeyValueStore.go)
 - [1480. Running Sum of 1d Array](1480.RunningSumOf1dArray.go)
 - [1901. Find a Peak Element II](1901.FindAPeakElementII.go)
 - [2215. Find the Difference of Two Arrays](2215.FindTheDifferenceOfTwoArrays.go)
