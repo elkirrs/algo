@@ -47,6 +47,7 @@ func main() {
 	// tasks.PeakIndexInAMountainArrayRun()                      // 852. Peak Index in a Mountain Array
 	// tasks.KokoEatingBananasRun()								 // 875. Koko Eating Bananas
 	// tasks.SquaresOfASortedArrayRun()                          // 977. Squares of a Sorted Array
+	// tasks.TimeBasedKeyValueStoreRun()						 // 981. Time Based Key-Value Store
 	// tasks.RunningSumOf1dArrayRun()                            // 1480. Running Sum of 1d Array
 	// tasks.FindPeakElementIIRun()                              // 1901. Find a Peak Element II
 	// tasks.FindTheDifferenceOfTwoArraysRun()                   // 2215. Find the Difference of Two Arrays
