@@ -8,7 +8,7 @@ import (
 func main() {
 	tasks.Info()
 	// tasks.TwoSumRun()                                         // 1. Two Sum
-	tasks.LongestSubstringWithoutRepeatingCharactersRun()	 // 3. Longest Substring Without Repeating Characters
+	// tasks.LongestSubstringWithoutRepeatingCharactersRun()	 // 3. Longest Substring Without Repeating Characters
 	// tasks.MedianOfTwoSortedArraysRun()						 // 4. Median of Two Sorted Arrays
 	// tasks.ContainerWithMostWaterRun()                         // 11. Container With Most Water
 	// tasks.ThreeSumRun()                                       // 15. 3Sum
@@ -45,6 +45,7 @@ func main() {
 	// tasks.IntersectionOfTwoArraysRun()                        // 349. Intersection of Two Arrays
 	// tasks.IntersectionOfTwoArraysIIRun()                      // 350. Intersection of Two Arrays II
 	// tasks.ValidPerfectSquareRun()                             // 367. Valid Perfect Square
+	// tasks.LongestRepeatingCharacterReplacementRun() 			 // 424. Longest Repeating Character Replacement
 	// tasks.BinarySearchRun() 									 // 704. Binary Search
 	// tasks.PeakIndexInAMountainArrayRun()                      // 852. Peak Index in a Mountain Array
 	// tasks.KokoEatingBananasRun()								 // 875. Koko Eating Bananas

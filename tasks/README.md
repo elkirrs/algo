@@ -38,6 +38,7 @@
 - [349. Intersection of Two Arrays](349.IntersectionOfTwoArrays.go)
 - [350. Intersection of Two Arrays II](350.IntersectionOfTwoArraysII.go)
 - [367. Valid Perfect Square](367.ValidPerfectSquare.go)
+- [424. Longest Repeating Character Replacement](424.LongestRepeatingCharacterReplacement.go)
 - [704. Binary Search](704.BinarySearch.go)
 - [852. Peak Index in a Mountain Array](852.PeakIndexInAMountainArray.go)
 - [875. Koko Eating Bananas](875.KokoEatingBananas.go)
