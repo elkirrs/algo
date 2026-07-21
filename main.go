@@ -46,6 +46,7 @@ func main() {
 	// tasks.IntersectionOfTwoArraysIIRun()                      // 350. Intersection of Two Arrays II
 	// tasks.ValidPerfectSquareRun()                             // 367. Valid Perfect Square
 	// tasks.LongestRepeatingCharacterReplacementRun() 			 // 424. Longest Repeating Character Replacement
+	// tasks.PermutationInStringRun() 						     // 567. Permutation in String
 	// tasks.BinarySearchRun() 									 // 704. Binary Search
 	// tasks.PeakIndexInAMountainArrayRun()                      // 852. Peak Index in a Mountain Array
 	// tasks.KokoEatingBananasRun()								 // 875. Koko Eating Bananas
