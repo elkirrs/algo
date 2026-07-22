@@ -22,8 +22,12 @@ func PrintScript[T any, R any](fn func(T) R, arg T) {
 
 func PrintScriptTwo[A, B any, R any](fn func(A, B) R, a A, b B) {
 	fmt.Println("")
-	fmt.Println("Input:", a, b)
-	fmt.Println("Output:", fn(a, b))
+	fmt.Print("Input: ")
+	printValue(a)
+	printValue(b)
+
+	fmt.Print("Output: ")
+	printValue(fn(a, b))
 }
 
 func printList(head *ListNode) {
@@ -49,4 +53,20 @@ func printValue(v any) {
 type ListNode struct {
 	Val  int
 	Next *ListNode
+}
+
+func PrepareList(nums []int) *ListNode {
+	if len(nums) == 0 {
+		return nil
+	}
+
+	head := &ListNode{Val: nums[0]}
+	current := head
+
+	for i := 1; i < len(nums); i++ {
+		current.Next = &ListNode{Val: nums[i]}
+		current = current.Next
+	}
+
+	return head
 }
