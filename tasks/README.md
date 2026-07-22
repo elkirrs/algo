@@ -24,6 +24,7 @@
 - [125. Valid Palindrome](125.ValidPalindrome.go)
 - [128. Longest Consecutive Sequence](128.LongestConsecutiveSequence.go)
 - [141. Linked List Cycle](141.LinkedListCycle.go)
+- [143. Reorder List](143.ReorderList.go)
 - [153. Find Minimum in Rotated Sorted Array](153.FindMinimumInRotatedSortedArray.go)
 - [154. Find Minimum in Rotated Sorted Array II](154.FindMinimumInRotatedSortedArrayII.go)
 - [162. Find Peak Element](162.FindPeakElement.go)
