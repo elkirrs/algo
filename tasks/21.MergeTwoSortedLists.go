@@ -20,10 +20,10 @@ func MergeTwoSortedListsRun() {
 	printList(result)
 }
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+// type ListNode struct {
+// 	Val  int
+// 	Next *ListNode
+// }
 
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	tmp := &ListNode{}
@@ -47,15 +47,4 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	}
 
 	return tmp.Next
-}
-
-func printList(head *ListNode) {
-	for head != nil {
-		fmt.Print(head.Val)
-		if head.Next != nil {
-			fmt.Print(" -> ")
-		}
-		head = head.Next
-	}
-	fmt.Println()
 }

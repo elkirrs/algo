@@ -35,6 +35,7 @@ func main() {
 	// tasks.FindPeakElementRun()                                // 162. Find Peak Element
 	// tasks.TwoSumIIInputArrayIsSortedRun()                     // 167. Two Sum II - Input Array Is Sorted
 	// tasks.RemoveLinkedListElementsRun()                       // 203. Remove Linked List Elements
+	tasks.ReverseLinkedListRun()								 // 206. Reverse Linked List
 	// tasks.ContainsDuplicateRun()                              // 217. Contains Duplicate
 	// tasks.ProductofArrayExceptSelfRun()                       // 238. Product of Array Except Self
 	// tasks.SlidingWindowMaximumRun() 							 // 239. Sliding Window Maximum
