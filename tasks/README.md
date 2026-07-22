@@ -30,6 +30,7 @@
 - [203. Remove Linked List Elements](203.RemoveLinkedListElements.go)
 - [217. Contains Duplicate](217.ContainsDuplicate.go)
 - [238. Product of Array Except Self](238.ProductofArrayExceptSelf.go)
+- [239. Sliding Window Maximum](239.SlidingWindowMaximum.go)
 - [240. Search a 2D Matrix II](240.SearchA2DMatrixII.go)
 - [242. Valid Anagram](242.ValidAnagram.go)
 - [271. Encode and Decode Strings](271.EncodeAndDecodeStrings.go)
