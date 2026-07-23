@@ -24,6 +24,7 @@
 - [121. Best Time to Buy and Sell Stock](121.BestTimeToBuyAndSellStock.go)
 - [125. Valid Palindrome](125.ValidPalindrome.go)
 - [128. Longest Consecutive Sequence](128.LongestConsecutiveSequence.go)
+- [138. Copy List with Random Pointer](138.CopyListWithRandomPointer.go)
 - [141. Linked List Cycle](141.LinkedListCycle.go)
 - [143. Reorder List](143.ReorderList.go)
 - [153. Find Minimum in Rotated Sorted Array](153.FindMinimumInRotatedSortedArray.go)

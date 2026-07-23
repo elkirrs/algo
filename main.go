@@ -31,8 +31,9 @@ func main() {
 	// tasks.BestTimeToBuyAndSellStockRun()						 // 121. Best Time to Buy and Sell Stock
 	// tasks.ValidPalindromeRun()                                // 125. Valid Palindrome
 	// tasks.LongestConsecutiveSequenceRun()                     // 128. Longest Consecutive Sequence
+	tasks.CopyListWithRandomPointerRun() 						// 138. Copy List with Random Pointer 
 	// tasks.LinkedListCycleRun()								 // 141. Linked List Cycle
-	// tasks.ReorderListRun() 										 // 143. Reorder List
+	// tasks.ReorderListRun() 									 // 143. Reorder List
 	// tasks.FindMinimumInRotatedSortedArrayRun()                // 153. Find Minimum in Rotated Sorted Array
 	// tasks.FindMinimumInRotatedSortedArrayIIRun()              // 154. Find Minimum in Rotated Sorted Array II
 	// tasks.FindPeakElementRun()                                // 162. Find Peak Element

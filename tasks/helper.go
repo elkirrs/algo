@@ -54,6 +54,11 @@ type ListNode struct {
 	Val  int
 	Next *ListNode
 }
+type Node struct {
+	Val    int
+	Next   *Node
+	Random *Node
+}
 
 func PrepareList(nums []int) *ListNode {
 	if len(nums) == 0 {
