@@ -1,6 +1,7 @@
 ## Tasks:
 
 - [1. Two Sum](1.TwoSum.go)
+- [2. Add Two Numbers](2.AddTwoNumbers.go)
 - [3. Longest Substring Without Repeating Characters](3.LongestSubstringWithoutRepeatingCharacters.go)
 - [4. Median of Two Sorted Arrays](4.MedianOfTwoSortedArrays.go)
 - [11. Container With Most Water](11.ContainerWithMostWater.go)
